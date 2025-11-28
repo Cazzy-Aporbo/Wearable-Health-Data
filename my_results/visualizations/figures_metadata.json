@@ -1,0 +1,80 @@
+{
+  "figures": {
+    "ownership_by_income": {
+      "html_path": "my_results/visualizations/ownership_by_income.html",
+      "png_path": "my_results/visualizations/ownership_by_income.png",
+      "title": "Wearable Ownership by Income Bracket"
+    },
+    "ownership_by_race": {
+      "html_path": "my_results/visualizations/ownership_by_race.html",
+      "png_path": "my_results/visualizations/ownership_by_race.png",
+      "title": "Wearable Ownership by Race and Ethnicity"
+    },
+    "ownership_heatmap": {
+      "html_path": "my_results/visualizations/ownership_heatmap.html",
+      "png_path": "my_results/visualizations/ownership_heatmap.png",
+      "title": "Wearable Ownership: Income by Race/Ethnicity"
+    },
+    "usage_funnel": {
+      "html_path": "my_results/visualizations/usage_funnel.html",
+      "png_path": "my_results/visualizations/usage_funnel.png",
+      "title": "Wearable Engagement Funnel"
+    },
+    "fragmentation_by_brand": {
+      "html_path": "my_results/visualizations/fragmentation_by_brand.html",
+      "png_path": "my_results/visualizations/fragmentation_by_brand.png",
+      "title": "Data Fragmentation by Device Brand"
+    },
+    "fragmentation_by_income": {
+      "html_path": "my_results/visualizations/fragmentation_by_income.html",
+      "png_path": "my_results/visualizations/fragmentation_by_income.png",
+      "title": "Data Fragmentation by Income Bracket"
+    },
+    "interoperability_matrix": {
+      "html_path": "my_results/visualizations/interoperability_matrix.html",
+      "png_path": "my_results/visualizations/interoperability_matrix.png",
+      "title": "Interoperability Features by Data Format"
+    },
+    "fragmentation_vs_linkability": {
+      "html_path": "my_results/visualizations/fragmentation_vs_linkability.html",
+      "png_path": "my_results/visualizations/fragmentation_vs_linkability.png",
+      "title": "Fragmentation vs EHR Linkability"
+    },
+    "accuracy_by_skin_tone": {
+      "html_path": "my_results/visualizations/accuracy_by_skin_tone.html",
+      "png_path": "my_results/visualizations/accuracy_by_skin_tone.png",
+      "title": "Sensor Accuracy by Skin Tone Category"
+    },
+    "accuracy_brand_tone": {
+      "html_path": "my_results/visualizations/accuracy_brand_tone.html",
+      "png_path": "my_results/visualizations/accuracy_brand_tone.png",
+      "title": "Sensor Accuracy: Brand by Skin Tone"
+    },
+    "dropout_demographics": {
+      "html_path": "my_results/visualizations/dropout_demographics.html",
+      "png_path": "my_results/visualizations/dropout_demographics.png",
+      "title": "Data Dropout Rate by Demographics"
+    },
+    "quality_radar": {
+      "html_path": "my_results/visualizations/quality_radar.html",
+      "png_path": "my_results/visualizations/quality_radar.png",
+      "title": "Data Quality Profile by Income Group"
+    },
+    "predicted_ownership": {
+      "html_path": "my_results/visualizations/predicted_ownership.html",
+      "png_path": "my_results/visualizations/predicted_ownership.png",
+      "title": "Predicted Wearable Ownership by Demographics"
+    },
+    "fairness_dashboard": {
+      "html_path": "my_results/visualizations/fairness_dashboard.html",
+      "png_path": "my_results/visualizations/fairness_dashboard.png",
+      "title": "Equity and Fairness Summary"
+    },
+    "calibration": {
+      "html_path": "my_results/visualizations/calibration.html",
+      "png_path": "my_results/visualizations/calibration.png",
+      "title": "Model Calibration by Income Group"
+    }
+  },
+  "output_directory": "my_results/visualizations"
+}
