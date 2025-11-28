@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wearable Health Equity Analysis Report</title>
+    <style>
+        body {
+            font-family: 'Source Sans Pro', 'Segoe UI', sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #3D3D3D;
+            background-color: #FAFAFA;
+        }
+        h1 {
+            color: #2D5A5A;
+            border-bottom: 2px solid #7FBFBF;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #4A8B8B;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #5AA3A3;
+        }
+        pre {
+            background-color: #E8E4E1;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: 'Source Code Pro', Consolas, monospace;
+        }
+        strong {
+            color: #2D5A5A;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #A8A8A8;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Wearable Health Equity Analysis Report
+<p>**Analysis Date:** 2025-11-27  
+**Scenario:** baseline  
+**Author:** Cazzy Aporbo  </p>
+<hr>
+<p></p>
+<p>#<h1>Executive Summary</p>
+<p>This analysis examined wearable health technology adoption and data quality 
+across a population of 2,000 individuals using the baseline scenario.</p>
+<p>**Key Findings:**</p>
+<p>Overall wearable ownership stands at 49.1%, with 
+51.3% of owners actively using devices for health 
+purposes. Among health-focused users, 41.5% share 
+data with healthcare providers.</p>
+<p>Ownership disparities by income bracket show a gap of 49.8% 
+between the highest and lowest income groups. Sensor accuracy varies by skin tone 
+category, with a gap of 11.0% between groups with 
+highest and lowest measured accuracy.</p>
+<p>Data fragmentation shows meaningful variation across income levels, with a 
+0.12 point difference in fragmentation index between income extremes. 
+This suggests that lower-income individuals may face additional barriers to 
+data interoperability and clinical integration.</p>
+<p></p>
+<p>#<h1>Data Description</p>
+<p>The analysis uses three integrated data buckets:</p>
+<p>**Bucket 1: Individual and Population Usage**
+Contains demographic characteristics and wearable adoption behaviors including 
+device ownership, health-focused usage patterns, and data sharing preferences.</p>
+<p>**Bucket 2: Device Stream and Fragmentation**
+Documents device brands, data formats, API availability, and EHR integration 
+capabilities. Includes a computed fragmentation index ranging from 0 (fully 
+interoperable) to 1 (highly fragmented).</p>
+<p>**Bucket 3: Equity, Bias, and Quality**
+Captures sensor accuracy measurements, data completeness metrics, and sharing 
+behaviors stratified by demographic factors including skin tone category.</p>
+<p>**Population Composition:**</p>
+<p>The analyzed population includes 2,000 individuals distributed 
+across income brackets, with representation from multiple racial and ethnic groups 
+and geographic settings.</p>
+<p></p>
+<p>#<h1>Equity and Disparity Findings</p>
+<p>This section summarizes observed patterns related to health equity and 
+representativity in wearable health data.</p>
+<p>##<h1>Ownership Disparities</p>
+<p>
+Wearable ownership varies substantially by income. High income individuals 
+own wearables at a rate of 73.8%, compared 
+to 24.1% among low income individuals.</p>
+<p>
+Ownership also varies by race and ethnicity. The highest ownership rate 
+(51.2%) was observed among asian 
+respondents, while the lowest (43.5%) was among 
+other respondents.</p>
+<p>
+These patterns reflect broader digital divides documented in research on 
+health technology access and socioeconomic factors.</p>
+<p>##<h1>Sensor Accuracy Disparities</p>
+<p>
+Sensor accuracy shows variation by skin tone category. The highest accuracy 
+was measured among individuals with type i ii skin tones, 
+while the lowest was among those with type v vi skin tones, 
+representing a gap of 11.0%.</p>
+<p>
+Accuracy variations by skin tone have implications for the reliability of 
+health metrics derived from photoplethysmography sensors. Devices may 
+systematically produce less accurate readings for certain populations, 
+potentially affecting clinical decision-making when this data is used.</p>
+<p>##<h1>Implications for Data Representativity</p>
+<p>The observed disparities in ownership and accuracy suggest that wearable 
+health datasets may underrepresent certain populations in both quantity 
+and quality of data. This creates risks for:</p>
+<p>1. Biased algorithm development when training on non-representative data
+2. Differential quality of derived health insights across demographic groups
+3. Potential for widening rather than narrowing health disparities</p>
+<p></p>
+<p>#<h1>Interoperability and Fragmentation Findings</p>
+<p>Data fragmentation affects the ability to integrate wearable health information 
+with clinical systems and other data sources.</p>
+<p>##<h1>Fragmentation by Device Ecosystem</p>
+<p>
+Fragmentation varies substantially by device brand. Apple devices 
+show the lowest fragmentation (mean index 0.25), 
+while Other devices show the highest (mean index 
+0.63).</p>
+<p>
+Devices with lower fragmentation typically offer better API access, standardized 
+data formats, and established EHR integration pathways.</p>
+<p>##<h1>Fragmentation and Socioeconomic Status</p>
+<p>
+Lower income individuals tend to use devices with higher fragmentation 
+indices, reflecting both device choice patterns and the availability of 
+interoperable options at different price points.</p>
+<p>
+This pattern creates a compounding challenge: populations already facing barriers 
+to healthcare access may also face barriers to having their wearable data 
+meaningfully integrated into clinical care.</p>
+<p>##<h1>Implications for Data Integration</p>
+<p>The fragmented device ecosystem presents challenges for:</p>
+<p>1. Building comprehensive longitudinal health records from multiple data sources
+2. Developing interoperable clinical workflows that incorporate wearable data
+3. Ensuring equitable access to data-driven health insights</p>
+<p>Efforts to improve interoperability should consider how standardization 
+benefits may be distributed across different device ecosystems and user 
+populations.</p>
+<p></p>
+<p>#<h1>Limitations and Considerations</p>
+<p>
+**Synthetic Data Note:** This analysis uses synthetically generated data 
+designed to reflect patterns documented in published research. While the 
+synthetic data captures directional relationships, the specific magnitudes 
+and distributions should not be interpreted as precise estimates of 
+real-world prevalence or effect sizes.</p>
+<p>
+##<h1>Methodological Limitations</p>
+<p>1. Cross-sectional analysis cannot establish causal relationships
+2. Model predictions rely on available covariates and may not capture all 
+   relevant factors
+3. Group-level disparities do not predict individual experiences</p>
+<p>##<h1>Data Quality Considerations</p>
+<p>1. Sensor accuracy measurements may vary based on measurement protocol
+2. Self-reported data sharing behavior may not match actual behavior
+3. Device brand categorization simplifies a complex ecosystem</p>
+<p>##<h1>Interpretation Guidance</p>
+<p>This analysis is intended for research and exploratory purposes only. It does 
+not perform clinical diagnosis or provide personalized medical advice. Findings 
+should be validated with domain expertise and, where possible, replicated with 
+real-world data from relevant populations.</p>
+<p></p>
+<p>#<h1>Visualizations</p>
+<p>The following visualizations are available for this analysis:</p>
+<p>**Wearable Ownership by Income Bracket**
+  Static: my_results/visualizations/ownership_by_income.png
+  Interactive: my_results/visualizations/ownership_by_income.html</p>
+<p>**Wearable Ownership by Race and Ethnicity**
+  Static: my_results/visualizations/ownership_by_race.png
+  Interactive: my_results/visualizations/ownership_by_race.html</p>
+<p>**Wearable Ownership: Income by Race/Ethnicity**
+  Static: my_results/visualizations/ownership_heatmap.png
+  Interactive: my_results/visualizations/ownership_heatmap.html</p>
+<p>**Wearable Engagement Funnel**
+  Static: my_results/visualizations/usage_funnel.png
+  Interactive: my_results/visualizations/usage_funnel.html</p>
+<p>**Data Fragmentation by Device Brand**
+  Static: my_results/visualizations/fragmentation_by_brand.png
+  Interactive: my_results/visualizations/fragmentation_by_brand.html</p>
+<p>**Data Fragmentation by Income Bracket**
+  Static: my_results/visualizations/fragmentation_by_income.png
+  Interactive: my_results/visualizations/fragmentation_by_income.html</p>
+<p>**Interoperability Features by Data Format**
+  Static: my_results/visualizations/interoperability_matrix.png
+  Interactive: my_results/visualizations/interoperability_matrix.html</p>
+<p>**Fragmentation vs EHR Linkability**
+  Static: my_results/visualizations/fragmentation_vs_linkability.png
+  Interactive: my_results/visualizations/fragmentation_vs_linkability.html</p>
+<p>**Sensor Accuracy by Skin Tone Category**
+  Static: my_results/visualizations/accuracy_by_skin_tone.png
+  Interactive: my_results/visualizations/accuracy_by_skin_tone.html</p>
+<p>**Sensor Accuracy: Brand by Skin Tone**
+  Static: my_results/visualizations/accuracy_brand_tone.png
+  Interactive: my_results/visualizations/accuracy_brand_tone.html</p>
+<p>**Data Dropout Rate by Demographics**
+  Static: my_results/visualizations/dropout_demographics.png
+  Interactive: my_results/visualizations/dropout_demographics.html</p>
+<p>**Data Quality Profile by Income Group**
+  Static: my_results/visualizations/quality_radar.png
+  Interactive: my_results/visualizations/quality_radar.html</p>
+<p>**Predicted Wearable Ownership by Demographics**
+  Static: my_results/visualizations/predicted_ownership.png
+  Interactive: my_results/visualizations/predicted_ownership.html</p>
+<p>**Equity and Fairness Summary**
+  Static: my_results/visualizations/fairness_dashboard.png
+  Interactive: my_results/visualizations/fairness_dashboard.html</p>
+<p>**Model Calibration by Income Group**
+  Static: my_results/visualizations/calibration.png
+  Interactive: my_results/visualizations/calibration.html
+</p>
+</body>
+</html>
