@@ -1,0 +1,984 @@
+user_id,device_brand,device_model,data_format,available_metrics,api_available,ehr_export_supported,platforms_integrated,fragmentation_index
+U00004,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.11528076882198748
+U00005,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,vendor_portal_only,0.47643305824782456
+U00006,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.4706389634120979
+U00007,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3492104322915105
+U00008,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.4709267169788566
+U00010,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3758471564014041
+U00013,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.4389634580406188
+U00014,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",False,False,vendor_portal_only,0.46263035647835243
+U00015,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.3373660509699412
+U00020,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.45877713202120085
+U00021,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.2870993962011543
+U00023,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.39547787102840826
+U00026,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.33879612759287214
+U00027,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.04914051977995951
+U00028,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.44161490889586474
+U00031,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.12054778182094841
+U00033,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7156448418667521
+U00034,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.16505711769743103
+U00037,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.29204993844688887
+U00042,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.29796814379171804
+U00043,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.5482414678435884
+U00046,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,third_party_aggregator,0.3199727410021109
+U00047,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.23875435695869396
+U00050,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.4546517622990391
+U00051,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.4652842258025832
+U00052,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.32905605606493393
+U00054,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.14881200508354653
+U00055,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,True,third_party_aggregator,0.6921707764279557
+U00056,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.4969566796727186
+U00059,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.5069297873738182
+U00062,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.4280095614550942
+U00063,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,True,third_party_aggregator,0.2510127535532282
+U00064,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.272053106801177
+U00066,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.4443608982859878
+U00068,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.3338143160496893
+U00069,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.4237319552720935
+U00070,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4009926422955911
+U00071,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.11819705641222394
+U00072,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.35153062826248177
+U00073,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.40146301131552
+U00074,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.2582093713031087
+U00075,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.434422737330132
+U00076,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.5380427609607895
+U00077,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.14961236478725098
+U00081,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.6795368906839104
+U00083,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.26560204688303407
+U00085,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",False,True,third_party_aggregator,0.49860399666586575
+U00086,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.49208366596149067
+U00087,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.209592473599806
+U00091,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.351184924126295
+U00092,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.5995482578239569
+U00095,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.42839591788715736
+U00098,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,True,third_party_aggregator,0.6403461939498917
+U00099,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.4020411674493687
+U00100,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2025415526385131
+U00103,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.17492159214204708
+U00104,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2222046467341502
+U00105,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.4657272830717112
+U00110,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.36467107765939305
+U00113,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.3097717992814828
+U00115,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.18187400883902102
+U00117,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.23180257297101947
+U00119,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.6992154263695465
+U00120,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.34955987595022237
+U00123,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.31161901292127214
+U00125,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.289068237502249
+U00127,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.3451852213902
+U00130,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.1344301647540601
+U00131,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.40485543084943987
+U00133,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.005157168371033138
+U00134,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.35116662060808357
+U00135,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.2496340810497669
+U00140,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.2963371477511583
+U00141,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.7257074590202846
+U00142,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.5689211342120073
+U00143,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.524593642714747
+U00144,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.15746732339276226
+U00146,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.6882122990448182
+U00147,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3118969138823701
+U00148,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.23696244082963863
+U00149,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3845803675814739
+U00150,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3458574853538133
+U00151,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,True,ehr_system,0.4422018086843845
+U00152,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.42107988320091877
+U00159,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.4943066928052223
+U00163,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.13991457984600006
+U00164,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3175888582690518
+U00166,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.22694449099481734
+U00169,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",False,True,third_party_aggregator,0.638986882513075
+U00170,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.2410333489307342
+U00171,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.279180370413139
+U00174,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.18537818542489629
+U00179,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.136656311685869
+U00180,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.20817425489951819
+U00181,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.31525098153439035
+U00185,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.4270572429955692
+U00187,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.43106574132682834
+U00188,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.07277648682897056
+U00192,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.37470409239554997
+U00195,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.25993134683478775
+U00196,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3034178492770258
+U00201,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.501825460405733
+U00204,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.3686836592134119
+U00205,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,False,vendor_portal_only,0.34570714860957164
+U00206,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.9949295419181
+U00208,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.12164205767667982
+U00209,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.30203192115333255
+U00212,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.36291181439275616
+U00213,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.22486395377847695
+U00215,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.1736064017293128
+U00216,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.06883164635885927
+U00218,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.18084910491082418
+U00220,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.37731072852978453
+U00222,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.41792245927130356
+U00223,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.6217635114317663
+U00224,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3728891650806156
+U00226,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.1892865189551316
+U00227,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3238044105712372
+U00228,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.2528385263023153
+U00232,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.3176243419608001
+U00235,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.5242300877633421
+U00239,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.1999494339796041
+U00240,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.21452797485092492
+U00241,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.19237976608048818
+U00244,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.17979863383402397
+U00249,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.5227921947008809
+U00252,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3753020283476183
+U00253,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3975439378084279
+U00254,Withings,ScanWatch 2,open_fhir,"steps,heart_rate,spo2,ecg,temperature",False,True,ehr_system,0.13748526175081843
+U00255,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.5421675487785764
+U00256,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,vendor_portal_only,0.390316817573901
+U00257,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.5685952831551542
+U00258,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.26542748041976966
+U00261,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3013125199336545
+U00263,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.148331560667323
+U00264,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,False,vendor_portal_only,0.7544784340399306
+U00266,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.3303247273047384
+U00267,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.45356892796268045
+U00268,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.6346358787633676
+U00270,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.27240870122288613
+U00273,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.602860007707263
+U00275,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.29257096907038055
+U00276,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.32375785328332074
+U00277,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.1869903292575294
+U00280,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.45930541681282366
+U00282,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.25970005754542763
+U00283,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.20256415260563868
+U00284,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.4494136333562021
+U00286,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,third_party_aggregator,0.35320626851885967
+U00288,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.1114927240654783
+U00289,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.20423381142410768
+U00291,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.5809890593693214
+U00294,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.33528364648382425
+U00297,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.38422375429925326
+U00300,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,vendor_portal_only,0.7315955787237036
+U00301,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3020109595624827
+U00302,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.19460389297657138
+U00304,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.44182968953328583
+U00309,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.21519519630884576
+U00310,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.2987972856113169
+U00312,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.4089733221194841
+U00315,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.3620016512457509
+U00317,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.5515480847912526
+U00318,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.46917709983321376
+U00322,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.44871569233964426
+U00324,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2817008761644705
+U00326,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,True,third_party_aggregator,0.2658370426926716
+U00327,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.3605571343141608
+U00328,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7554361621543948
+U00329,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.6780996249870519
+U00330,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.21600842722694888
+U00331,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.5386832420343044
+U00333,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.5403670095352195
+U00338,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.23177679527921102
+U00339,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.343503497041764
+U00340,Withings,ScanWatch 2,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.2980795520913949
+U00341,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.18850283627330083
+U00346,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.17487656805269705
+U00348,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.3988448715194088
+U00349,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.5414866980308741
+U00350,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.169753769207727
+U00351,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.576801186059097
+U00352,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.4653557690327658
+U00353,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.3928999078337542
+U00354,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.29452886103989795
+U00361,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.5124960444429545
+U00362,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.2964893405075995
+U00363,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.4131325968535318
+U00372,Other,Budget Smartwatch,csv_export,"steps,heart_rate",True,False,vendor_portal_only,0.5912876974068539
+U00374,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.38025255912501815
+U00376,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,1.0
+U00377,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.21284927357740743
+U00378,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",True,False,third_party_aggregator,0.24377983147913512
+U00379,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.30691315690190213
+U00380,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.478444746108285
+U00385,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.6539768238547837
+U00387,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.6180624561946649
+U00390,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,True,ehr_system,0.9291561917374414
+U00391,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.5492072879451572
+U00392,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.5850688880283215
+U00397,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.33811605101631487
+U00398,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.2076685655584717
+U00400,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.5484948659490958
+U00405,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.4220054066682835
+U00412,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.3380228440167655
+U00414,Withings,ScanWatch 2,open_fhir,"steps,heart_rate,spo2,ecg,temperature",False,False,vendor_portal_only,0.4446651659011664
+U00416,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.40672280636879043
+U00417,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.28647524744674546
+U00418,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.4458862835439983
+U00421,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4243018274830923
+U00422,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.2599454655066339
+U00423,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.22080782020957054
+U00424,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.07986849265198354
+U00425,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.29855770299487727
+U00426,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3711457261238546
+U00427,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.2643911598032515
+U00428,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.11734528257895221
+U00430,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.2932710901848891
+U00434,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.23262727063996838
+U00436,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.2800829139409048
+U00437,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.23431520904190062
+U00439,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3213709803892081
+U00441,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.4063995782887111
+U00444,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.31040204186943804
+U00445,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.2073768407244229
+U00446,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.2441875044964512
+U00447,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,True,third_party_aggregator,0.5568321200878925
+U00451,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3548321109493053
+U00453,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.25684235422942886
+U00454,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.5848662086443651
+U00456,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.24324034273224746
+U00457,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.2615653875469427
+U00460,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.15057751198977015
+U00465,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4917471003664582
+U00466,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.29624541760478496
+U00467,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.5648476310655215
+U00472,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.44433741501660845
+U00473,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.4275341154714848
+U00474,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.5030907419490156
+U00478,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.21747376707066968
+U00480,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3136107851664337
+U00482,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.5011424016875005
+U00484,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4724242449747302
+U00485,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.5802188112685707
+U00487,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.38659842751296847
+U00489,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.8979376489016834
+U00491,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.1929213538652495
+U00492,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.22771467189250422
+U00497,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.24836756031914142
+U00502,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.4656139128574893
+U00503,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.323120870564908
+U00504,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.33817626618945484
+U00506,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.2946381407250392
+U00508,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.35489351625851084
+U00510,Other,Generic Tracker,csv_export,"steps,heart_rate",True,False,vendor_portal_only,0.361331911454389
+U00511,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.20726452284326613
+U00512,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.1287588806724677
+U00514,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.2358504779592443
+U00515,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.4475766199557854
+U00520,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.6105077721929165
+U00521,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.4498893292734951
+U00528,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.36239851461377776
+U00531,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.5124851464759147
+U00533,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.37030817306080377
+U00535,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.27504328563942104
+U00536,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.31664377808872407
+U00538,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3126887721451526
+U00540,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,vendor_portal_only,0.3089503231960565
+U00541,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.6314168733130985
+U00542,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.486798231527387
+U00543,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.20612883752706762
+U00544,Withings,ScanWatch 2,open_fhir,"steps,heart_rate,spo2,ecg,temperature",False,False,vendor_portal_only,0.3395374134299045
+U00550,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.46318731460672397
+U00554,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.48911480133694824
+U00558,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.6480279187698968
+U00559,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.21406036529838937
+U00561,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.4024811758120058
+U00565,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.25083069927013035
+U00566,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.7188777183412245
+U00567,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.4904012945669245
+U00569,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.18807147941022395
+U00573,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,1.0
+U00578,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3598678954870516
+U00581,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.4332206675113372
+U00582,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.4275960147438113
+U00583,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.20731438824593745
+U00589,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.06956238896637357
+U00591,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.37415504094981017
+U00597,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.5730278474808835
+U00601,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.2895708843268606
+U00603,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.6192840096372803
+U00604,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.5981831174788285
+U00605,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.25206087067854527
+U00607,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.7630762458389007
+U00609,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.5327114463025675
+U00610,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,True,third_party_aggregator,0.5355672452050823
+U00611,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.3679336659182767
+U00614,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.36685405847998903
+U00616,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.042332904118455805
+U00619,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.38365182818910115
+U00620,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.550861317631874
+U00621,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.42167666371232526
+U00623,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.2844674420361374
+U00625,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,True,ehr_system,0.49304377990407944
+U00627,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.11035737320548322
+U00629,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",False,False,vendor_portal_only,0.7660151617445383
+U00630,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.5764342305196564
+U00631,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,False,vendor_portal_only,0.36351218214577574
+U00634,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.5129579334142194
+U00637,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,True,third_party_aggregator,0.5468050702691822
+U00638,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.38276790271709327
+U00639,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.3269369723099595
+U00642,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.28830163300333245
+U00643,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2419105625980452
+U00644,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.379478410945725
+U00645,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.18228581808698302
+U00648,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.4503333390012497
+U00654,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.5125766324538704
+U00655,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.2602057011097794
+U00662,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.42770865198080216
+U00663,Other,Generic Tracker,csv_export,"steps,heart_rate",False,True,ehr_system,0.3743695125520711
+U00664,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.044074787551924344
+U00666,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.834246385487774
+U00668,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,True,ehr_system,0.3550632448231452
+U00669,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.2946013494346336
+U00670,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.03167645180460438
+U00671,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.5232077754835781
+U00673,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",True,False,vendor_portal_only,0.7200676448145062
+U00675,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.3872233452861138
+U00676,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,True,third_party_aggregator,0.5485528134703258
+U00677,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.10278054151622174
+U00679,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.4529668023184189
+U00680,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3167582045375326
+U00683,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.17512572288636652
+U00686,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.22284884503537947
+U00687,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2746199702678795
+U00689,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3506438316255191
+U00691,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.2631673556734879
+U00694,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.24911646132015228
+U00696,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7923087357847555
+U00697,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.15759168300281803
+U00700,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.423003411672497
+U00702,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7433104230974699
+U00703,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.40168132892192737
+U00706,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",False,True,third_party_aggregator,0.6078716416905702
+U00708,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",True,False,third_party_aggregator,0.6689396294099192
+U00711,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.33633924444700575
+U00712,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.2158206343190575
+U00714,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.27471685564136633
+U00716,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.3619967332990844
+U00717,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.15071679721944
+U00719,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.6547700484721475
+U00720,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.5575092908876028
+U00721,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.3009860398053985
+U00722,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.34813149980108576
+U00724,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.17358514430786814
+U00726,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",True,False,vendor_portal_only,0.31426768956254814
+U00728,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.4504481686875095
+U00730,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.2961337543381077
+U00731,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.2598164151620067
+U00732,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.21478699436127888
+U00735,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3256845547048427
+U00736,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.2826706886671357
+U00738,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,True,ehr_system,0.8088531736168998
+U00739,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.12512621839361948
+U00740,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.09614657687116623
+U00744,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3051784082287412
+U00746,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.3649910905166968
+U00748,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.22770551637208844
+U00749,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.41715634955653563
+U00752,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.574608094713016
+U00757,Other,Budget Smartwatch,csv_export,"steps,heart_rate",True,False,third_party_aggregator,0.6406364826279429
+U00758,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.29698370165374477
+U00759,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.08319048503281706
+U00760,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.2949357428064179
+U00764,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.14156350591010702
+U00767,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3823046958227824
+U00768,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.0701285089290237
+U00769,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,False,third_party_aggregator,0.3873975869890673
+U00773,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3557695198335514
+U00775,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.24603447204683804
+U00776,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.4358549967793357
+U00777,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,False,third_party_aggregator,0.40428437291126595
+U00778,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.18325079960395615
+U00782,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,True,ehr_system,0.7740064270809625
+U00784,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.21799673114541657
+U00785,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.39191303675543004
+U00787,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.4914770951000173
+U00788,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.24837303367302024
+U00789,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.36057537134975803
+U00790,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.27312186086323254
+U00795,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.2996182166124857
+U00796,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3934588963244049
+U00798,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.7449302442553003
+U00799,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.738793322150421
+U00803,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",False,True,third_party_aggregator,0.5978033681067347
+U00807,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.18896833138069996
+U00808,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.20838560699586645
+U00810,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.43266263841354846
+U00811,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.4424885510547123
+U00812,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.19808644475585493
+U00817,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,True,third_party_aggregator,0.5104830272487593
+U00818,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3893843002672964
+U00819,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.31858766667536403
+U00821,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.8615973361459013
+U00823,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.33378249123501624
+U00824,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.30719711777578185
+U00826,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.4638668725595789
+U00827,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.31847289676929214
+U00829,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.29448001588511474
+U00830,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.2404164276337742
+U00832,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.3233057290540628
+U00834,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.33750835514586763
+U00835,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.16884021719264566
+U00837,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.31290524683439264
+U00842,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.17917812412538514
+U00844,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2289699605213056
+U00847,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.35952561871357014
+U00848,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3490957179707764
+U00851,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.3155446844101437
+U00854,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.3333466099238204
+U00855,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.1928574826058597
+U00859,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.5083728256358566
+U00861,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.554508876892587
+U00863,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.3623672389485073
+U00864,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.2897486188707079
+U00866,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3010467414643181
+U00867,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.1858828791638632
+U00869,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4871481840680301
+U00871,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",False,True,ehr_system,0.286960137029361
+U00873,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.06306311925276792
+U00877,Other,Budget Smartwatch,csv_export,"steps,heart_rate",True,True,third_party_aggregator,0.6616616074929773
+U00878,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.22206091724297908
+U00880,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.4445581209746857
+U00882,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.5367334179921545
+U00883,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.0
+U00885,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.40762440649698906
+U00887,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,True,third_party_aggregator,0.5582016640671237
+U00891,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.2746336084166218
+U00892,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.3323823592475498
+U00899,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.4506141732047765
+U00900,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.4137459187809197
+U00901,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.2739341770914127
+U00902,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.15748348692036102
+U00903,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.6036431265442405
+U00906,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.7221023289883992
+U00907,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.265685302829435
+U00908,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,False,third_party_aggregator,0.47460853489360627
+U00910,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.31213170284965214
+U00911,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.32410632860450095
+U00915,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.23272666450240642
+U00922,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.2149128020634673
+U00923,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.2954204052554809
+U00924,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.2338565341498018
+U00925,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.48791115203985375
+U00928,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.1351903763051226
+U00929,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.11508576144366228
+U00930,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.2681905956157248
+U00933,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2654345126466561
+U00935,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,vendor_portal_only,0.6331400981344598
+U00936,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.4131323419561157
+U00942,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.33991041201619115
+U00943,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3330480909624985
+U00946,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.43521949739189
+U00947,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.5258336811498182
+U00948,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.3470862872194159
+U00952,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3240655286183295
+U00954,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.22215208032768644
+U00961,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.23026107008174163
+U00962,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.39164981881976063
+U00964,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2445577489718086
+U00968,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.20844926221598142
+U00969,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.3164808626296809
+U00970,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.6099021665822452
+U00972,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.252154918470068
+U00973,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.22335019309698165
+U00974,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.523094477081199
+U00975,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.24647301217361225
+U00976,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.27092768175375437
+U00977,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.2444574255606116
+U00978,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.27348661520827644
+U00979,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.22066478129605088
+U00980,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.1613980389465614
+U00981,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.2609640194157333
+U00983,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.11352670166026405
+U00985,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.6001412104111906
+U00986,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.38620413654487173
+U00987,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.5356372686861451
+U00988,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3660559328056453
+U00989,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.23554116180853246
+U00993,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,vendor_portal_only,0.3803707350663459
+U00997,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.12390546731556956
+U01000,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.7095210086932443
+U01002,Other,Budget Smartwatch,csv_export,"steps,heart_rate",True,False,third_party_aggregator,1.0
+U01004,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.14569684305311176
+U01005,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.4868455118766668
+U01007,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3897739014111273
+U01009,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.28811670355896163
+U01010,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.6437369987714204
+U01011,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,True,third_party_aggregator,0.5288323704921446
+U01013,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.29075518601783046
+U01019,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.1539034506046053
+U01020,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.37311915802930923
+U01023,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.42677451541816047
+U01026,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.30057705007621116
+U01028,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.14158984069879743
+U01029,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3014542170258117
+U01031,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.19272624170920252
+U01036,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.8387158713477324
+U01037,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3428887913216478
+U01039,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2622503233103817
+U01041,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.2477547971502818
+U01042,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.08192476178317648
+U01045,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.10042752357596646
+U01046,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.31175868399430345
+U01049,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.27785599881738055
+U01050,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.41711887301918427
+U01051,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.25903174350931696
+U01052,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.3463561632888016
+U01054,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.31074973591467264
+U01055,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.8058006497764747
+U01056,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.680143596735845
+U01059,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.28359025668276355
+U01064,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,False,vendor_portal_only,0.44301060446111057
+U01066,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.5441918857907854
+U01067,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.4394502153616953
+U01068,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.6478897136185664
+U01069,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,third_party_aggregator,0.3957778552987576
+U01071,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.5753117206309778
+U01075,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.13399169223563973
+U01080,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.29072566456290055
+U01083,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.03641755829886381
+U01084,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.2651306540009736
+U01087,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7795047909717666
+U01089,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.0
+U01091,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.6876572735181681
+U01092,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.42250524166782133
+U01093,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.30472375963384396
+U01096,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.13041388799653528
+U01097,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4427743967710697
+U01100,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.35111653968624784
+U01102,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.4209245142699819
+U01103,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.38112131637294583
+U01104,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.45715560505831926
+U01107,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.36092358000407776
+U01111,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3255173535077101
+U01112,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2784104808896709
+U01114,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3749768695256791
+U01115,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.2366769835190242
+U01116,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.23119057518732275
+U01118,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.4746460373818392
+U01119,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.8082779699096874
+U01121,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.5604296917944586
+U01122,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.43579853195946483
+U01124,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.06870108990898982
+U01126,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.18641672730036885
+U01129,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,False,vendor_portal_only,0.3681559317277676
+U01130,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3553842070193743
+U01133,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.5525917801328806
+U01135,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.4338916732885608
+U01137,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.6190642506315716
+U01138,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2117672036725758
+U01140,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,True,ehr_system,0.3772957898442488
+U01141,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.45142456547741455
+U01142,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.46091651201889505
+U01143,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.31499469110237344
+U01145,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.2576653439832794
+U01147,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.7504056255478145
+U01148,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.24496633841490137
+U01149,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.17027541360197918
+U01150,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.24051298358957426
+U01153,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.1680036400098898
+U01154,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,True,third_party_aggregator,0.5579122371817948
+U01156,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.28061989617084826
+U01158,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.22795437817189007
+U01167,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.26797025774889754
+U01168,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.7367697660558998
+U01170,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,False,vendor_portal_only,0.356742223591043
+U01180,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.7555619984940557
+U01183,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.5295961019395152
+U01185,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.31756826686766515
+U01186,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.5553402054869827
+U01190,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.20262910234320486
+U01191,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.41548663943083725
+U01193,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.23055286886710993
+U01194,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.566503867245447
+U01195,Other,Generic Tracker,csv_export,"steps,heart_rate",True,False,vendor_portal_only,0.6592358326480093
+U01196,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.3335568472948246
+U01198,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.3408982106233906
+U01199,Other,Budget Smartwatch,csv_export,"steps,heart_rate",True,False,vendor_portal_only,0.7799223940278761
+U01202,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.26380543802611695
+U01204,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.34516565657248655
+U01206,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.4820863441850604
+U01208,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.31569930027432447
+U01210,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.34888257928429023
+U01211,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.30131061157415284
+U01213,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.5859071149957243
+U01215,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3830652038223743
+U01216,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.19144637842017795
+U01217,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.4487716123865868
+U01218,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.09014692742340777
+U01219,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.2503527716711218
+U01222,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3259193508538641
+U01223,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.3359452340137056
+U01225,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.37752908533433716
+U01226,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.1651816215965759
+U01228,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3149480799939932
+U01233,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.6337473849236744
+U01234,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.27473547029478684
+U01235,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.21916116304454283
+U01236,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.6147059750656914
+U01238,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.8939246148411288
+U01247,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.5856075461537786
+U01248,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.07478960543702853
+U01249,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.2348897722163059
+U01250,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.1855210900849117
+U01251,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.3043840195833846
+U01252,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.35598068784521997
+U01260,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.28264262129200396
+U01262,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.1627529957340541
+U01263,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.27067839944033173
+U01264,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.4930856299199282
+U01265,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.43640878078513123
+U01267,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,True,ehr_system,0.5753714270387328
+U01269,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3655749103267485
+U01270,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",False,True,third_party_aggregator,0.508019605722968
+U01272,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.5984373803945016
+U01274,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7931921950343626
+U01275,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.42561988486838354
+U01276,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.2523585433883417
+U01282,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.3926425874008996
+U01283,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.24127016909302432
+U01284,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.1719669355800236
+U01285,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.17069718506682513
+U01286,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,True,third_party_aggregator,0.48159344122046666
+U01290,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.28019835590476105
+U01291,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.33139338679130237
+U01293,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.4917851662342997
+U01294,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.5647433361809229
+U01295,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3136958803554807
+U01296,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.5264394887158117
+U01297,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.20236342434981283
+U01298,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,False,third_party_aggregator,0.507245923067066
+U01299,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.6180620783277383
+U01305,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.16730099509008522
+U01309,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.6552540171323291
+U01310,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.4765953046114074
+U01311,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,False,third_party_aggregator,0.5826203612296939
+U01312,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,False,third_party_aggregator,0.5628233066981988
+U01313,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.4624262036443326
+U01314,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.31118799899759286
+U01315,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.23898297887314818
+U01316,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3464404895360529
+U01317,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.15267828051335774
+U01319,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.22271397042450497
+U01320,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3243739135760503
+U01321,Withings,ScanWatch 2,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.5418754444853712
+U01322,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.16340638417258
+U01323,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.22745839330826423
+U01325,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.23933243959479902
+U01326,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.308338306591176
+U01327,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.16204641664285607
+U01331,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.24602311908717936
+U01335,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.41652411242433696
+U01336,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.47292152024162104
+U01337,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.2994362983861405
+U01338,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.42314868738117656
+U01340,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.18736050994625542
+U01343,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.16593908750128128
+U01347,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3950069605821027
+U01348,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3245899915715671
+U01349,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.5069910071564543
+U01351,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4333922990072569
+U01355,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.5040584675399464
+U01357,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.5568927391348809
+U01359,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.47810411001294145
+U01360,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.7052013845707478
+U01361,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.2553742561607627
+U01363,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",False,True,ehr_system,0.5798890683105229
+U01364,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.23833660535618148
+U01366,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.33940565258823385
+U01368,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.36290581695243007
+U01369,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,ehr_system,0.3258320223900084
+U01370,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.4620623399504773
+U01372,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,third_party_aggregator,0.44207091082669075
+U01373,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.4586177935413777
+U01375,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.49368276370713826
+U01379,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.4122679410799378
+U01380,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.23610121738271572
+U01382,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.44999556265161644
+U01383,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.4834227307429536
+U01386,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.45024500187640054
+U01387,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.3497841047544109
+U01391,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.13775686337349186
+U01392,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7667196095062426
+U01393,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.7701611637275687
+U01394,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.31912457270128863
+U01396,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,True,ehr_system,0.521349785253551
+U01397,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.22798042650560602
+U01399,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,True,third_party_aggregator,0.48089867970234457
+U01400,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3778605544215915
+U01402,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.2558908953166659
+U01404,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.6029446127113136
+U01407,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.15954490718941194
+U01409,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.4624707220189547
+U01411,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.4134933368374783
+U01415,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.20687620826150757
+U01418,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.4551910243871354
+U01420,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.32351296930683815
+U01421,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.7559011307030742
+U01423,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.4294380295450514
+U01427,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.3135044965431884
+U01428,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.2653751257630048
+U01429,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.33142384003799
+U01436,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.5252227840005051
+U01437,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3584506292594542
+U01438,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.5265220269366437
+U01439,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.4209423000110636
+U01441,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.37379467016632417
+U01442,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.974835990464085
+U01445,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.23169214541732444
+U01448,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.18967618582367976
+U01449,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.10042992904828787
+U01451,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3561144124724771
+U01453,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.27846419187009835
+U01456,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.07201576595193027
+U01458,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.3524693174388711
+U01459,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.13663631852657968
+U01461,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.27721580298254317
+U01463,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.35478232383052577
+U01466,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.31194341759924277
+U01469,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.24581266798948284
+U01472,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",True,False,third_party_aggregator,0.6534224056894093
+U01477,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.12562602830166808
+U01478,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.29294482397942145
+U01479,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.34104334976324013
+U01480,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.3300447417142158
+U01482,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.5841033545894525
+U01483,Withings,ScanWatch 2,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.6151001770230556
+U01484,Other,Generic Tracker,csv_export,"steps,heart_rate",True,False,third_party_aggregator,1.0
+U01486,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.21867015140181978
+U01487,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.1949365854388344
+U01490,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.22654169013861852
+U01493,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2694293103419522
+U01495,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.24467214552301572
+U01497,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.5354967565514153
+U01498,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.68966729502747
+U01499,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.07868791429196798
+U01502,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.5485840665932392
+U01503,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.5957600448306108
+U01504,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.2873545327680998
+U01505,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.5184240258361635
+U01507,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.4683260976286723
+U01510,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.5855319785220704
+U01515,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.4413339744159529
+U01516,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.44996090606507855
+U01518,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.07541702145800955
+U01519,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.2659511388483057
+U01521,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.6123263439912336
+U01522,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.18029626287380313
+U01526,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.40961678830286874
+U01528,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.022823616389771928
+U01531,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.11487728181104909
+U01534,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.4564324737679895
+U01535,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.25359609203297556
+U01536,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.5747116349223442
+U01539,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.16856439756450875
+U01541,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.11041489524378889
+U01545,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.3193405886226638
+U01546,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.3575278945513643
+U01548,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.17172022382295193
+U01550,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.35362269674123403
+U01551,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,True,ehr_system,0.6546246427738232
+U01553,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.35190568338244776
+U01556,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.396238975663739
+U01557,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.25381268154874415
+U01558,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,vendor_portal_only,0.38691283061949183
+U01559,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.6608519226599665
+U01561,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7970433862647885
+U01563,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.5248501142655816
+U01564,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.6923312809460819
+U01566,Withings,ScanWatch 2,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,False,third_party_aggregator,0.3554862756269722
+U01570,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.31362125515697836
+U01571,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.7430932854673091
+U01573,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.2935436811332207
+U01579,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.31499621674447886
+U01582,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4315631723177048
+U01585,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.5152289783367731
+U01588,Other,Budget Smartwatch,csv_export,"steps,heart_rate",True,False,vendor_portal_only,0.28766562040390026
+U01590,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.6460091857553942
+U01591,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.48969916110898054
+U01592,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.429867775024905
+U01594,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.22592833766420017
+U01595,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.39685201390629715
+U01597,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.3039151959011545
+U01598,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.3551226972074662
+U01599,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.10249730485610206
+U01603,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.07584770429316393
+U01606,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.629876796164706
+U01607,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.4094612827612432
+U01608,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",False,False,vendor_portal_only,0.47851646294033134
+U01609,Withings,ScanWatch 2,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.4456974089644776
+U01610,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",False,True,ehr_system,0.3675561568830574
+U01612,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.2192937890236733
+U01614,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.25911886939683504
+U01620,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.5146051100406464
+U01627,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,third_party_aggregator,0.28716959084582816
+U01628,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.2979488793224045
+U01632,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.4282547037802215
+U01633,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.45893616576155405
+U01634,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.43460537744238026
+U01635,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.23294760877017323
+U01636,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.35635568836059306
+U01637,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.3982452562252055
+U01639,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.2367181749309056
+U01640,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.27527365035512663
+U01642,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7611077404114961
+U01643,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.18706499051257303
+U01644,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.14226490427065513
+U01645,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.45622856205109036
+U01647,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.332627793948901
+U01648,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.3225584696262684
+U01649,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.6508924566613377
+U01650,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.15671764827231205
+U01651,Other,Generic Tracker,csv_export,"steps,heart_rate",False,True,ehr_system,0.6326643215327801
+U01652,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.061072322515281025
+U01653,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.3824789880622672
+U01654,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.5217782599579157
+U01657,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.44831297783952434
+U01658,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2482613613693291
+U01659,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",True,True,ehr_system,0.7160972446410927
+U01661,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.20702860825960753
+U01662,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.08954556438540823
+U01664,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.2737516053026866
+U01665,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.31969310234489645
+U01668,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.13168881423470535
+U01670,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.22335436686971474
+U01671,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.17628675545235106
+U01672,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.4055383390400733
+U01674,Withings,Steel HR,open_fhir,"steps,heart_rate,spo2,ecg,temperature",True,False,vendor_portal_only,0.5490424119397971
+U01675,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.4874076706973078
+U01678,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.4706304594808358
+U01681,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.0944756168195936
+U01683,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.3009131444392798
+U01686,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.29009953790083626
+U01687,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.2665376306395468
+U01688,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.1960643854096392
+U01691,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.34540302414428
+U01692,Other,Generic Tracker,csv_export,"steps,heart_rate",False,True,ehr_system,0.7176217009424036
+U01695,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.24906433398315123
+U01696,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.704980712246225
+U01698,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.28187021098876425
+U01699,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,ehr_system,0.4113488564515615
+U01702,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.42135547882300833
+U01703,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.3327506332965066
+U01704,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.42409584463809724
+U01708,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.29921284506697304
+U01712,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.15891033525853415
+U01713,Other,Budget Smartwatch,csv_export,"steps,heart_rate",True,False,third_party_aggregator,0.6219438418578186
+U01716,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.5093926548980713
+U01717,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.5251296982867226
+U01718,Withings,Steel HR,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,False,third_party_aggregator,0.2917937794280425
+U01722,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.24211210395400581
+U01724,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.2905179366042887
+U01726,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.26001025039843584
+U01731,Garmin,Venu 3,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.3742705529141956
+U01733,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.39302821438476143
+U01735,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.4794917157094371
+U01738,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.8264341848200791
+U01740,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.2532807207456084
+U01741,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.265781594496761
+U01742,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.5341440912912038
+U01743,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.22068398639174117
+U01745,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.4290578843115133
+U01749,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.38441353649187304
+U01751,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.5287278549714644
+U01752,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.5028086283959629
+U01753,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.09650119518346217
+U01755,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.14608791689244555
+U01757,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.4229643508970282
+U01760,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,third_party_aggregator,0.29865295021736005
+U01761,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.44955521946593807
+U01762,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.423536981699111
+U01765,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.35620360009599084
+U01768,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.20371752748107919
+U01777,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.5328488069707847
+U01779,Garmin,Fenix 7,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.477235416273059
+U01781,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.22510040570204362
+U01783,Other,Generic Tracker,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7922532368209347
+U01784,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.3933065888336624
+U01785,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.5997041788622869
+U01786,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.42268118283362643
+U01792,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.5653498733212952
+U01795,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.06263472186247873
+U01800,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.2959219023211829
+U01802,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.21021382033191607
+U01804,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.16409490116564962
+U01805,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.36585005794051256
+U01806,Garmin,Forerunner 265,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.5333631147814479
+U01808,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.10922279730890339
+U01809,Other,Generic Tracker,proprietary_json,"steps,heart_rate",True,False,third_party_aggregator,0.7930991270632931
+U01810,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",True,True,third_party_aggregator,0.5950636874249495
+U01812,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.1776928493342341
+U01815,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.26305744742515685
+U01817,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.15913097304819107
+U01818,Oura,Oura Ring Gen 3,proprietary_json,"heart_rate,hrv,sleep_stages,temperature,activity",False,False,vendor_portal_only,0.4459948964420857
+U01819,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.32870149540321203
+U01820,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.44563961364302146
+U01821,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.27693803645005577
+U01823,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.43801837693913354
+U01825,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.2738874324944845
+U01830,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.5042718245072957
+U01831,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.15651737863355547
+U01832,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.15746898587186714
+U01834,Garmin,Venu 3,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,False,vendor_portal_only,0.49372050025382613
+U01836,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.2946397149479467
+U01837,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.30567690282809074
+U01838,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.17717555665082363
+U01839,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.403951180694247
+U01843,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.18744901941058528
+U01844,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.23161006257777433
+U01848,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.35404786396980015
+U01849,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.2762353030322178
+U01852,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.15196549456848926
+U01853,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.23194373999763065
+U01855,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,third_party_aggregator,0.48422928950501753
+U01858,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",True,False,vendor_portal_only,0.7225333719238527
+U01859,Fitbit,Charge 6,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.2524276696560537
+U01861,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.36686903393540937
+U01865,Whoop,Whoop 4.0,proprietary_json,"heart_rate,hrv,sleep_stages,strain,recovery",False,False,vendor_portal_only,0.5941706753141346
+U01866,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.32003698091318317
+U01868,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.27680200381594344
+U01871,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.11550831954362531
+U01872,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.288189792201327
+U01873,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",True,True,third_party_aggregator,0.6151539786203343
+U01877,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.9509529803995218
+U01881,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.33429207452769033
+U01882,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.3600392189953648
+U01883,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.0674089143960237
+U01890,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.24718257605890015
+U01892,Apple,Watch SE,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,vendor_portal_only,0.2188898430321888
+U01896,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,ehr_system,0.7881898696979657
+U01898,Fitbit,Sense 2,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.3124299230592267
+U01899,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.7989808599246347
+U01902,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.43297208395567854
+U01904,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.392734815287745
+U01911,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.37670571270479053
+U01914,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.20599606037286528
+U01916,Other,Generic Tracker,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.10976721730289696
+U01921,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.5594579474850017
+U01923,Garmin,Forerunner 265,csv_export,"steps,heart_rate,hrv,sleep_stages,stress",True,False,vendor_portal_only,0.3075253320613692
+U01927,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,third_party_aggregator,0.06328868050289427
+U01928,Withings,ScanWatch 2,proprietary_json,"steps,heart_rate,spo2,ecg,temperature",True,True,third_party_aggregator,0.5113145429404101
+U01929,Oura,Oura Ring Gen 3,csv_export,"heart_rate,hrv,sleep_stages,temperature,activity",True,False,third_party_aggregator,0.5670063054510458
+U01931,Garmin,Fenix 7,proprietary_json,"steps,heart_rate,hrv,sleep_stages,stress",False,True,third_party_aggregator,0.515183846722205
+U01936,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.8731431403596744
+U01941,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.25134190830085346
+U01944,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.24500219519979893
+U01946,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.31175560779230327
+U01947,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.33216401840551624
+U01948,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,True,third_party_aggregator,0.09768332074251368
+U01949,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.397948887052776
+U01950,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.34321218244806695
+U01951,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.4569027736421767
+U01952,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.47919862187722667
+U01953,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.5288200728343758
+U01954,Other,Budget Smartwatch,csv_export,"steps,heart_rate",False,False,vendor_portal_only,0.10056345869686045
+U01958,Fitbit,Versa 4,csv_export,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.5436162427486728
+U01959,Other,Budget Smartwatch,proprietary_json,"steps,heart_rate",False,False,vendor_portal_only,0.716080990714675
+U01966,Apple,Watch SE,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.38346512716780046
+U01971,Apple,Watch Ultra,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.13253655230866254
+U01972,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",False,False,vendor_portal_only,0.134464241757589
+U01973,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,ehr_system,0.5643653222006767
+U01975,Samsung,Galaxy Fit 3,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.2502869431532679
+U01976,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,ehr_system,0.218915109536691
+U01978,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,True,third_party_aggregator,0.3027454640462489
+U01979,Fitbit,Charge 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4427463992346219
+U01980,Apple,Watch Ultra,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,True,ehr_system,0.35784162948642856
+U01985,Fitbit,Sense 2,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,third_party_aggregator,0.37680634008689623
+U01989,Apple,Watch Series 9,open_fhir,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",False,False,vendor_portal_only,0.14456907769409622
+U01992,Fitbit,Versa 4,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,False,vendor_portal_only,0.4347959159005065
+U01994,Samsung,Galaxy Watch 6,proprietary_json,"steps,heart_rate,spo2,sleep_stages",True,True,third_party_aggregator,0.4811578478960188
+U01998,Apple,Watch Series 9,proprietary_json,"steps,heart_rate,spo2,hrv,sleep_stages,ecg",True,False,third_party_aggregator,0.06849651088137806
