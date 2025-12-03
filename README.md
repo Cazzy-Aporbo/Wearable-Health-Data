@@ -51,7 +51,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Ownership by Income Analysis](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/ownership_by_income.html)
+### [Ownership by Income Analysis](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/ownership_by_income.html)
 
 <sub>Who owns wearables? The socioeconomic gradient revealed</sub>
 
@@ -61,7 +61,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Ownership Heatmap: Income by Race](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/ownership_heatmap.html)
+### [Ownership Heatmap: Income by Race](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/ownership_heatmap.html)
 
 <sub>Intersectional analysis of wearable adoption patterns</sub>
 
@@ -71,7 +71,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Sensor Accuracy by Skin Tone](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/accuracy_by_skin_tone.html)
+### [Sensor Accuracy by Skin Tone](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/accuracy_by_skin_tone.html)
 
 <sub>The physics of light absorption and its equity implications</sub>
 
@@ -81,7 +81,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Accuracy Heatmap: Brand by Skin Tone](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/accuracy_by_brand_and_tone.html)
+### [Accuracy Heatmap: Brand by Skin Tone](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/accuracy_by_brand_and_tone.html)
 
 <sub>Which devices perform consistently across all users?</sub>
 
@@ -91,7 +91,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Fragmentation by Device Brand](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/fragmentation_by_brand.html)
+### [Fragmentation by Device Brand](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/fragmentation_by_brand.html)
 
 <sub>Data silos and interoperability across the device ecosystem</sub>
 
@@ -101,7 +101,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Fragmentation by Income](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/fragmentation_by_income.html)
+### [Fragmentation by Income](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/fragmentation_by_income.html)
 
 <sub>The compounding disadvantage of device choice</sub>
 
@@ -111,7 +111,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Fragmentation vs EHR Linkability](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/fragmentation_vs_linkability.html)
+### [Fragmentation vs EHR Linkability](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/fragmentation_vs_linkability.html)
 
 <sub>When data cannot reach clinical care</sub>
 
@@ -121,7 +121,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Data Quality Radar](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/data_quality_radar.html)
+### [Data Quality Radar](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/data_quality_radar.html)
 
 <sub>Multi-dimensional quality profiles by income group</sub>
 
@@ -131,7 +131,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Engagement Funnel](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/usage_funnel.html)
+### [Engagement Funnel](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/usage_funnel.html)
 
 <sub>From ownership to clinical integration: where people drop off</sub>
 
@@ -141,7 +141,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Dropout Rate by Demographics](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/dropout_by_demographics.html)
+### [Dropout Rate by Demographics](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/dropout_by_demographics.html)
 
 <sub>Missing data patterns across populations</sub>
 
@@ -151,7 +151,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Interoperability Matrix](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/interoperability_matrix.html)
+### [Interoperability Matrix](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/interoperability_matrix.html)
 
 <sub>Data format meets platform integration</sub>
 
@@ -161,7 +161,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Fairness Dashboard](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/fairness_dashboard.html)
+### [Fairness Dashboard](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/fairness_dashboard.html)
 
 <sub>Disparity gauges across all outcome dimensions</sub>
 
@@ -171,7 +171,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Predicted Ownership by Group](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/predicted_ownership_by_group.html)
+### [Predicted Ownership by Group](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/predicted_ownership_by_group.html)
 
 <sub>Model predictions vs observed rates</sub>
 
@@ -181,7 +181,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Model Calibration by Income](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/calibration_by_group.html)
+### [Model Calibration by Income](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/calibration_by_group.html)
 
 <sub>Do predictions perform equally across groups?</sub>
 
@@ -191,7 +191,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Race/Ethnicity Ownership](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/visualizations/ownership_by_race_ethnicity.html)
+### [Race/Ethnicity Ownership](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/visualizations/ownership_by_race_ethnicity.html)
 
 <sub>Adoption patterns across racial and ethnic groups</sub>
 
@@ -205,7 +205,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Analysis Report (Markdown)](https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/reports/analysis_report.md)
+### [Analysis Report (Markdown)](https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/reports/analysis_report.md)
 
 <sub>Technical findings summary with statistics</sub>
 
@@ -215,7 +215,7 @@ Every day, millions of wearable devices collect billions of health data points. 
 
 <div align="center">
 
-### [Analysis Report (HTML)](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/outputs/reports/analysis_report.html)
+### [Analysis Report (HTML)](https://htmlpreview.github.io/?https://github.com/Cazzy-Aporbo/Wearable-Health-Data/blob/main/my_results/reports/analysis_report.html)
 
 <sub>Styled technical report</sub>
 
@@ -328,7 +328,7 @@ This toolkit addresses themes documented across digital health equity research:
 ## Output Structure
 
 ```
-outputs/
+my_results/
 ├── data/
 │   ├── individual_population_usage.csv
 │   ├── device_stream_fragmentation.csv
